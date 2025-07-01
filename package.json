@@ -1,0 +1,34 @@
+{
+  "name": "thinkmobile-react-native-ota",
+  "version": "1.0.0",
+  "description": "Over-the-air update module for React Native",
+  "main": "js/index.ts",
+  "react-native": "js/index.ts",
+  "source": "js/index.ts",
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": "Tim Claes <tim.claes@me.com> (https://github.com/dentemm)",
+  "homepage": "https://github.com/dentemm/thinkmobile-react-native-ota",
+  "license": "MIT",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "ota.podspec"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "OTASpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.ota"
+    }
+  }
+}

@@ -5,9 +5,9 @@ A React Native library for handling Over-The-Air (OTA) updates in your applicati
 ## Installation
 
 ```bash
-npm install @your-org/ota
+npm install thinkmobile-react-native-ota
 # or
-yarn add @your-org/ota
+yarn add thinkmobile-react-native-ota
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add @your-org/ota
 Wrap your app with the OTAProvider and pass configuration directly:
 
 ```typescript
-import { OTAProvider } from '@your-org/ota';
+import { OTAProvider } from 'thinkmobile-react-native-ota';
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
 Alternatively, you can pass a config object:
 
 ```typescript
-import { OTAProvider } from '@your-org/ota';
+import { OTAProvider } from 'thinkmobile-react-native-ota';
 
 function App() {
   const otaConfig = {
